@@ -1117,3 +1117,38 @@ body {
 .loader-wrapper__text {
   color: #ffffff;
 }
+
+.navigation__container {
+  background-color: #0A0908;
+  background-image: linear-gradient(to right bottom, #3F555F, #0A0908);
+}
+
+.navigation__list {
+  background-color: #0A0908;
+}
+
+.navigation__item {
+  background-color: #0A0908;
+}
+
+.navigation__link,
+.navigation__link:link,
+.navigation__link:visited {
+  color: #FFFFFF !important;
+  text-decoration: none;
+}
+
+.navigation__link:hover,
+.navigation__link:focus {
+  color: #E5E7EB !important;
+  text-decoration: underline;
+}
+
+.navigation .media__icon {
+  fill: #FFFFFF;
+}
+
+.navigation .media__link:focus-visible {
+  outline: 2px solid #FFFFFF;
+  outline-offset: 4px;
+}
