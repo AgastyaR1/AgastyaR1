@@ -1,79 +1,77 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Agastya Rathee</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="shortcut icon" href="img/logo.png" type="image/png">
+  <meta charset="utf-8">
+  <title>Agastya Rathee</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="img/logo.png" type="image/png">
 </head>
 <body>
-    <main>
-        <header class="header">
-            <a href="index.html" class="home-link">
-                <img src="img/logo.png" alt="logo" class="header__logo">
-            </a>
-            <h4 class="header__side-text">Agastya Rathee</h4>
-        </header>
+  <main id="main">
+    <header class="header">
+      <a href="index.html" class="home-link">
+        <img src="img/logo.png" alt="Agastya Rathee logo" class="header__logo">
+      </a>
+      <h4 class="header__side-text">Agastya Rathee</h4>
+    </header>
 
-        <div class="hero">
-            <div class="hero__text">
-                <h1 class="heading-welcome">Building things,</h1>
-                <h1 class="heading-welcome">Solving problems,</h1>
-                <h1 class="heading-welcome">Sharing projects,</h1>
-                <h1 class="heading-welcome">Welcome</h1>
+    <div class="hero">
+      <div class="hero__text">
+        <!-- Keep only one real H1 for structure -->
+        <h1 class="heading-welcome">Welcome</h1>
+        <p class="heading-welcome" aria-hidden="false">Building things,</p>
+        <p class="heading-welcome" aria-hidden="false">Solving problems,</p>
+        <p class="heading-welcome" aria-hidden="false">Sharing projects,</p>
 
-                <p class="caption">
-                    UW–Madison CS &amp; Data Science · ML, software, systems
-                </p>
+        <p class="caption">
+          UW–Madison CS &amp; Data Science · ML, software, systems
+        </p>
 
-                <div class="nav">
-                    <div class="btn-animated">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="335" height="60" viewBox="0 0 335 107">
-                            <g id="Rectangle_1" data-name="Rectangle 1" fill="none" stroke="#f2f4f3" stroke-width="5">
-                                <rect width="335" height="107" stroke="none"/>
-                                <rect x="2.5" y="2.5" width="330" height="102" fill="none"/>
-                            </g>
-                        </svg>
-                        <a href="blogmain.html">
-                            <p class="btn-animated__text">Projects</p>
-                        </a>
-                    </div>
+        <nav class="nav" role="navigation" aria-label="Primary">
+          <div class="btn-animated">
+            <svg xmlns="http://www.w3.org/2000/svg" width="335" height="60" viewBox="0 0 335 107" aria-hidden="true" focusable="false">
+              <g fill="none" stroke="#f2f4f3" stroke-width="5">
+                <rect width="335" height="107" />
+                <rect x="2.5" y="2.5" width="330" height="102" />
+              </g>
+            </svg>
+            <a href="blogmain.html"><p class="btn-animated__text">Projects</p></a>
+          </div>
 
-                    <div class="btn-animated">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="335" height="60" viewBox="0 0 335 107">
-                            <g id="Rectangle_1" data-name="Rectangle 1" fill="none" stroke="#f2f4f3" stroke-width="5">
-                                <rect width="335" height="107" stroke="none"/>
-                                <rect x="2.5" y="2.5" width="330" height="102" fill="none"/>
-                            </g>
-                        </svg>
-                        <a href="about.html">
-                            <p class="btn-animated__text btn-animated__text--t2">About Me</p>
-                        </a>
-                    </div>
-                </div>
-            </div>
+          <div class="btn-animated">
+            <svg xmlns="http://www.w3.org/2000/svg" width="335" height="60" viewBox="0 0 335 107" aria-hidden="true" focusable="false">
+              <g fill="none" stroke="#f2f4f3" stroke-width="5">
+                <rect width="335" height="107" />
+                <rect x="2.5" y="2.5" width="330" height="102" />
+              </g>
+            </svg>
+            <a href="about.html"><p class="btn-animated__text btn-animated__text--t2">About Me</p></a>
+          </div>
+        </nav>
+      </div>
 
-            <div class="hero__img-container">
-                <img src="img/single bandi 2.png" alt="bg" class="hero__img--bg">
-                <img src="img/bandi cut 1.png" alt="cut 1" class="hero__img--cut hero__img--cut-1">
-                <img src="img/bandi cut 2.png" alt="cut 2" class="hero__img--cut hero__img--cut-2">
-            </div>
-        </div>
-    </main>
-
-    <div class="loader-wrapper">
-        <figure class="loader-wrapper__loader">
-            <img src="img/loading animation.svg" alt="loader" class="loader-wrapper__animation">
-            <figcaption class="loader-wrapper__text">Please Wait, Loading</figcaption>
-        </figure>
+      <div class="hero__img-container">
+        <!-- Decorative images: empty alt + aria-hidden -->
+        <img src="img/single bandi 2.png" alt="" class="hero__img--bg" aria-hidden="true">
+        <img src="img/bandi cut 1.png" alt="" class="hero__img--cut hero__img--cut-1" aria-hidden="true">
+        <img src="img/bandi cut 2.png" alt="" class="hero__img--cut hero__img--cut-2" aria-hidden="true">
+      </div>
     </div>
+  </main>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
-        integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
-        crossorigin="anonymous">
-    </script>
-    <script src="js/app.js"></script>
+  <div class="loader-wrapper" aria-hidden="true">
+    <figure class="loader-wrapper__loader">
+      <img src="img/loading animation.svg" alt="" class="loader-wrapper__animation">
+      <figcaption class="loader-wrapper__text">Please Wait, Loading</figcaption>
+    </figure>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+          integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+          crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
