@@ -1152,3 +1152,23 @@ body {
   outline: 2px solid #FFFFFF;
   outline-offset: 4px;
 }
+
+
+:root { --page-padding: 2.5rem; }
+
+/* Page-level background to satisfy “background color or full-page image” */
+body {
+  background-color: #0A0908; 
+}
+
+/* Clear space around page content */
+main {
+  padding: var(--page-padding);
+}
+
+/* Use a non-default serif font on at least one element (headings) + serif fallback */
+h1, h2, h3,
+.heading-primary, .heading-secondary, .heading-tertiary {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+}
